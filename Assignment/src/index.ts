@@ -65,8 +65,11 @@ class Car extends Vehicle {
 }
 
 const myCar = new Car('Toyota', 2020, 'Corolla');
+
 // console.log(myCar.getInfo());
 // console.log(myCar.getModel());
+
+
 
 //Problem 5
 
@@ -128,5 +131,5 @@ function getDaytype(day: Day): string {
   return 'Wednesday';
 }
 
-console.log(getDaytype(Day.Monday));
-console.log(getDaytype(Day.Sunday));
+// console.log(getDaytype(Day.Monday));
+// console.log(getDaytype(Day.Sunday));
